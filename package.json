@@ -21,7 +21,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "alt": "^0.17.1",
+    "alt": "alt",
     "qs": "^5.0.0"
   },
   "readme": "# react-native-router-flux\nReact Native Router using Flux architecture\n",
