@@ -161,7 +161,7 @@ class Router extends React.Component {
         var navBar = route.navigationBar;
 
         if (navBar) {
-            navBar = React.addons.cloneWithProps(navBar, {
+            navBar = React.cloneElement(navBar, {
                 navigator: navigator,
                 route: route
             });

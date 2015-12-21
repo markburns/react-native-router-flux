@@ -62,7 +62,7 @@ class Container extends React.Component {
         var navBar = route.navigationBar;
 
         if (navBar) {
-            navBar = React.addons.cloneWithProps(navBar, {
+            navBar = React.addons.cloneElement(navBar, {
                 navigator: navigator,
                 route: route
             });
